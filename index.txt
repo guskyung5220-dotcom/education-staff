@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>졸업가심사 관리</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -190,6 +195,8 @@ input.num{text-align:center}
 .sadd{flex:0 0 auto;font:inherit;font-size:13px;font-weight:600;color:var(--accent);background:transparent;border:1px dashed var(--accent);border-bottom:0;border-radius:5px 5px 0 0;padding:5px 10px;cursor:pointer;margin-left:4px}
 .sadd:hover{background:var(--accent-soft)}
 </style>
+</head>
+<body>
 
 <div class="wrap">
   <header class="top">
@@ -961,3 +968,5 @@ render();
 applyResultVis();
 })();
 </script>
+</body>
+</html>
